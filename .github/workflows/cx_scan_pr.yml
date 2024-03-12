@@ -14,7 +14,7 @@ jobs:
       - name: Checkmarx One CLI Action
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
-          project_name: "scan_pr"
+          project_name: "scan_pr-product-apim"
           cx_tenant: "wso2"
           base_uri: "https://us.ast.checkmarx.net"
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
