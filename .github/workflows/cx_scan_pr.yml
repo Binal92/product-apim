@@ -1,10 +1,10 @@
 name: Checkmarx One Scan
 on:
-  pull_request_target:
-    types: [opened, synchronize]
-permissions:
-  pull-requests: write
-  contents: read
+  push:
+    branches:
+      - main
+      - master
+      - dev
 jobs:
   build:
     runs-on: ubuntu-latest
