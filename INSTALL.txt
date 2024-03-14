@@ -3,7 +3,7 @@ Installing  WSO2 API Manager (APIM)
 
 
 Running WSO2 API Manager in standalone mode
-===========================================
+=============================================
 1. The directory containing this INSTALL.txt file will be the root and it will be
    treated as Carbon home directory and let it be <APIM_HOME>.
 
