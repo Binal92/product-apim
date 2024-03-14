@@ -19,4 +19,5 @@ jobs:
           base_uri: "https://us.ast.checkmarx.net"
           cx_client_id: ${{ secrets.CX_CLIENT_ID }}
           cx_client_secret: ${{ secrets.CX_CLIENT_SECRET }}
-          additional_params: --threshold "sast-high=2"
+          additional_params: --threshold "sast-high=2" --sast-incremental
+          
